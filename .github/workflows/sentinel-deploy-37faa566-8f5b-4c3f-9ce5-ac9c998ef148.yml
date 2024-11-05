@@ -13,7 +13,7 @@ on:
   push:
     branches: [ main ]
     paths:
-    - '**'
+    - 'Live/**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-37faa566-8f5b-4c3f-9ce5-ac9c998ef148.yml'
 
@@ -24,7 +24,7 @@ jobs:
       resourceGroupName: 'partnersecure-sentinel'
       workspaceName: 'sentinelworkspace'
       workspaceId: '0fafd430-e118-418d-963a-6c36dcdfdd15'
-      directory: '${{ github.workspace }}'
+      directory: '${{ github.workspace }}/Live'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_37faa5668f5b4c3f9ce5ac9c998ef148 }}
       contentTypes: 'AnalyticsRule,Workbook'
