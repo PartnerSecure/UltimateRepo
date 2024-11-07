@@ -79,7 +79,7 @@ jobs:
       with:
           azPSVersion: 'latest'
           inlineScript: |
-            ${{ github.workspace }}/Convert/Convert.ps1 
+            ${{ github.workspace }}//Convert/Convert.ps1 
 
     - name: Checkout
       uses: actions/checkout@v3
