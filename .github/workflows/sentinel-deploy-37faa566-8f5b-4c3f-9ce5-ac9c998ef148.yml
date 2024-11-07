@@ -16,6 +16,8 @@ on:
     - 'Live/**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-37faa566-8f5b-4c3f-9ce5-ac9c998ef148.yml'
+    - '!Convert/**'
+    - 'Convert/Convert.ps1'
 
 jobs:
   deploy-content:
