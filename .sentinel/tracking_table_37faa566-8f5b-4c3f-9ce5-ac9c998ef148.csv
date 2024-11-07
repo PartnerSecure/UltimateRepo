@@ -1,4 +1,5 @@
 FileName, CommitSha
+Live/Detections/SuspiciousPowerShellCommandExecuted.json,05c7b77c860055cc2e9b7d180e9af18a0418a7cf
 Live/Wokbooks/AzureActiveDirectorySignins_ARM.json,cbe819b3555f64d43379137c21a3fd93293a37c0
 Live/Wokbooks/M365SecurityPosture_ARM.json,2e53456c9523391b6f8c1aaa36dbfcf1aa07a91d
 
